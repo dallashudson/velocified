@@ -1,0 +1,40 @@
+[debug] [2020-09-28T19:34:23.220Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T19:34:23.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dallas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --project build
+[debug] [2020-09-28T19:34:23.222Z] CLI Version:   8.11.2
+[debug] [2020-09-28T19:34:23.222Z] Platform:      win32
+[debug] [2020-09-28T19:34:23.222Z] Node Version:  v12.18.3
+[debug] [2020-09-28T19:34:23.223Z] Time:          Mon Sep 28 2020 14:34:23 GMT-0500 (Central Daylight Time)
+[debug] [2020-09-28T19:34:23.223Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T19:34:23.223Z] 
+[debug] [2020-09-28T19:34:23.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-28T19:34:23.229Z] > authorizing via signed-in user
+[debug] [2020-09-28T19:34:23.229Z] [iam] checking project build for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-28T19:34:23.231Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/build:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-28T19:34:23.488Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 28 Sep 2020 19:34:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=172","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-28T19:34:23.489Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project build:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2020-09-28T19:34:23.489Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/build  
+ 
+[debug] [2020-09-28T19:34:23.689Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Mon, 28 Sep 2020 19:34:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-28T19:34:23.689Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-09-28T19:34:23.690Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-09-28T19:34:23.691Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Dallas\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Dallas\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Dallas\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.<anonymous> (C:\Users\Dallas\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at IncomingMessage.<anonymous> (C:\Users\Dallas\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1220:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project build. Please make sure the project exists and your account has permission to access it.
