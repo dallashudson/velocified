@@ -8,16 +8,16 @@
     "pages_blog_index.5d7b9f66e3c2b9063564.js",
     "layouts_default.b49d1f5c02934dc38817.js",
     "vendor.cef8336a1094389e7db7.js",
-    "app.0caac8ce2b22048c7595.js",
-    "manifest.9c977867862261da878d.js",
+    "app.902b898553551f9dd7a2.js",
+    "manifest.3a0691d93e6254bfcba3.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.9c977867862261da878d.js",
+    "manifest.3a0691d93e6254bfcba3.js",
     "vendor.cef8336a1094389e7db7.js",
-    "app.0caac8ce2b22048c7595.js"
+    "app.902b898553551f9dd7a2.js"
   ],
   "async": [
     "pages_blog__slug.8b6055e4aa1f90fdb33b.js",
