@@ -12,8 +12,6 @@
         <div class="page-info wrapper">
           <h2>{{ person.fields.title }}</h2>
           <p>{{ person.fields.shortBio }}</p>
-          <ul class="social-icons">
-          </ul>
         </div>
       </div>
     </header>
