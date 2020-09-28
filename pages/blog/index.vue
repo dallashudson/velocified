@@ -3,7 +3,7 @@
     <header class="blog header">
       <div class="foreground">
         <div class="page-bar wrapper">
-          <a href="/" class="person-name">John Doe</a>
+          <a href="/" class="person-name">Velocified</a>
           <Navigation></Navigation>
         </div>
         <div class="page-info wrapper">

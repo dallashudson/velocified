@@ -35,7 +35,7 @@
 
     <section class="body-container">
       <div class="items-bar wrapper">
-        <h2>Recent articles</h2>
+        <h2>Recent Coverage</h2>
       </div>
       <ul class="items-list wrapper">
         <li class="item" v-for="post in posts">
