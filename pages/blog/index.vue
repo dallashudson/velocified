@@ -1,6 +1,5 @@
 <template>
   <div>
-    <meta name="google-site-verification" content="NJQlvdvF933cGQaZ1V9V4h-iaguf2A5qDnOgEWFp0gM" />
     <header class="blog header">
       <div class="foreground">
         <div class="page-bar wrapper">
