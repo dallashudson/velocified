@@ -6,9 +6,6 @@
           <a href="/" class="person-name">Velocified</a>
           <Navigation></Navigation>
         </div>
-        <div class="page-info wrapper">
-          <h2>Blog</h2>
-        </div>
       </div>
     </header>
 

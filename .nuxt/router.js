@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
+const _94fd849c = () => import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */).then(m => m.default || m)
 const _45079655 = () => import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages_blog_index" */).then(m => m.default || m)
 const _4350f50d = () => import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages_blog__slug" */).then(m => m.default || m)
 const _7a4eba5f = () => import('..\\pages\\tags\\_tag.vue' /* webpackChunkName: "pages_tags__tag" */).then(m => m.default || m)
@@ -66,6 +67,11 @@ export function createRouter () {
     linkExactActiveClass: 'nuxt-link-exact-active',
     scrollBehavior,
     routes: [
+		{
+			path: "/about",
+			component: _94fd849c,
+			name: "about"
+		},
 		{
 			path: "/blog",
 			component: _45079655,

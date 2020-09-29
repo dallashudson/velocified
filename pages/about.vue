@@ -45,7 +45,7 @@ const client = createClient()
 export default {
   asyncData ({ env, params }) {
     return client.getEntries({
-      'content_type': env.CTF_BLOG_POST_TYPE_ID,
+      'content_type': env.CTF_INFO_POST_TYPE_ID,
       'fields.slug': params.slug
     }).then(entries => {
       return {
