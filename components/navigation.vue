@@ -20,7 +20,7 @@
   .person-name:visited {
     width: 50%;
     display: inline-block;
-    font-size: 2em;
+    font-size: 2.5em;
     font-style: normal;
     font-family: "airstrikeout";
     text-decoration: none;
