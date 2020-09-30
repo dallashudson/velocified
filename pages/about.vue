@@ -20,7 +20,6 @@
     <section class="body-container">
       <main class="wrapper">
         <div class="headline">
-          <time class="tiny">{{ ( new Date(post.fields.publishDate)).toDateString() }}</time>
           <h1>{{ post.fields.title }}</h1>
         </div>
         <div class="copy">
