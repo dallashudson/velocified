@@ -9,14 +9,22 @@
 </template>
 
 <style>
-
+  @font-face {
+    font-family: "airstrikeout";
+    font-weight: 400;
+    font-style: normal;
+    src: url("~/static/airstrikeout.woff") format("woff");
+    font-display: swap;
+  }
   .person-name:link,
   .person-name:visited {
     width: 50%;
     display: inline-block;
-    font-size: 2em;
+    font-size: 3em;
+    font-style: normal;
+    font-family: "airstrikeout";
     text-decoration: none;
-    color: #373F49;
+    color: #000000;
   }
 
   .top-nav {
@@ -36,7 +44,7 @@
 
   .menu a:link,
   .menu a:visited {
-    color: #373F49;
+    color: #000000;
     text-decoration: none;
   }
 

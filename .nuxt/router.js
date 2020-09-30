@@ -5,6 +5,7 @@ Vue.use(Router)
 
 const _94fd849c = () => import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */).then(m => m.default || m)
 const _45079655 = () => import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages_blog_index" */).then(m => m.default || m)
+const _c23e88e4 = () => import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */).then(m => m.default || m)
 const _4350f50d = () => import('..\\pages\\blog\\_slug.vue' /* webpackChunkName: "pages_blog__slug" */).then(m => m.default || m)
 const _7a4eba5f = () => import('..\\pages\\tags\\_tag.vue' /* webpackChunkName: "pages_tags__tag" */).then(m => m.default || m)
 const _558dcf12 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
@@ -76,6 +77,11 @@ export function createRouter () {
 			path: "/blog",
 			component: _45079655,
 			name: "blog"
+		},
+		{
+			path: "/login",
+			component: _c23e88e4,
+			name: "login"
 		},
 		{
 			path: "/blog/:slug",

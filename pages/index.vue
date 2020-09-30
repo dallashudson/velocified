@@ -69,13 +69,13 @@ export default {
   height: 70vw;
   min-height: 400px;
   max-height: 610px;
-  background: #000;
-  color: #fff;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .home .person-name:link,
 .home .person-name:visited {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .home .menu a:link,

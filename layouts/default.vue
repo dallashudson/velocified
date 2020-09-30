@@ -26,13 +26,13 @@
   }
 
   body {
-    background: #E1E7EA;
+    background: #000000;
     max-width: 1180px;
     margin: 0 auto;
     font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.65;
-    color: #373F49;
+    color: #494937;
   }
 
   .wrapper {
@@ -42,7 +42,7 @@
   }
 
   .header {
-    background: #F7F9FA;
+    background: #ffffff;
   }
 
   .page-bar {
@@ -54,7 +54,7 @@
   .tag-page.header h2 {
     text-align: center;
     padding: 2.5em 0;
-    color: #A0A0A0;
+    color: #000000;
   }
 
   img {
