@@ -21,7 +21,7 @@
         <h2>Recent Coverage</h2>
       </div>
       <ul class="items-list wrapper">
-        <li class="item" v-for="post in posts">
+        <li class="item" v-for="post in posts.slice(0,3)">
           <article-preview :post="post"></article-preview>
         </li>
       </ul>
